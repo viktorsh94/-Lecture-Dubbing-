@@ -1,0 +1,7 @@
+transformers==4.30.0
+torch==2.0.1
+ffmpeg-python==0.2.0
+pydub==0.25.1
+librosa==0.10.0
+whisper-timestamped==1.1.22
+gtts==2.4.0
