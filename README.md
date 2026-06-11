@@ -1,2 +1,21 @@
-# -Lecture-Dubbing-
-Lecture Dubbing 🎯 Project goal Your task is to select a lecture from DLS-Speech course and produce a convincing English-dubbed version that stays in sync with the original video. In sync means your dubbed speech aligns with the original utterance boundaries and on-screen events: durations for each spoken segment should closely match 
+project-dubbing/
+├── README.md
+├── requirements.txt
+├── Dockerfile
+├── inference.ipynb
+├── train.py
+├── src/
+│   ├── __init__.py
+│   ├── audio_utils.py
+│   ├── ast_pipeline.py
+│   ├── tts_pipeline.py
+│   └── sync_utils.py
+├── results/
+│   ├── sample_input.mp4
+│   ├── sample_output.mp4
+│   └── metrics_report.csv
+├── docs/
+│   └── report.pdf
+└── weights/
+    └── (ссылки на модели)
+
